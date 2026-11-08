@@ -14,7 +14,7 @@ while True:
     annotated=results[0].plot()
     cv2.imshow('Step 1 - Detection',annotated)
 
-    if cv2.waitkey(1) & 0xFF==ord('q'):
+    if cv2.waitKey(1) & 0xFF==ord('q'):
         break
 cap.release()
-cv2.destroyAllWindow()
+cv2.destroyAllWindows()

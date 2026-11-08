@@ -1,1 +1,4 @@
 CLAUDE.md
+*.pt
+output.mp4
+__pycache__/
